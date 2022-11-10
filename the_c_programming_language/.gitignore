@@ -1,0 +1,43 @@
+# KEIL / C8051 specific ignores
+**.uvgui.**
+**.bak
+
+!*.uvproj
+!*.lin
+*.uvopt
+
+# ; ignore all folders starting with build or Build
+[bB]uild*/*
+*/[bB]uild*/*
+
+
+# General C/C++ specific ignores
+*.hex
+*.obj
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+
+# Visual Studio Code specific ignores
+.*project
+.settings
+.envrc
+
+# !\.vscode\c_cpp_properties.json
+.vscode/**
+!.vscode/c_cpp_properties.json
+!.vscode/tasks.json
+
+# do never ignore data tables
+!docs/data_tables/*
+
+# python temp files
+
+**__pycache__**
+**/__pycache__/**
+.pyc
+*.log
